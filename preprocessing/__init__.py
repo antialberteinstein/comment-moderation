@@ -12,6 +12,9 @@ def download_library_if_not_found(library_path_to_check, library_name_to_downloa
 # punkt
 download_library_if_not_found('tokenizers/punkt', 'punkt')
 
+# punkt_tab
+download_library_if_not_found('tokenizers/punkt_tab', 'punkt_tab')
+
 # stopwords
 download_library_if_not_found('corpora/stopwords', 'stopwords')
 
